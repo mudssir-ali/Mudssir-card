@@ -1,0 +1,98 @@
+body {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background-color: #f2f2f2;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Nunito', sans-serif;
+  color: #1E1E1E;
+}
+
+.card {
+  width: 300px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, .1);
+  overflow: hidden;
+}
+
+.card-header {
+  padding: 30px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+
+.card-header img {
+  width: 100px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.card-header p,
+.location,
+.fa-map-marker-alt {
+  margin-top: 5px;
+  font-weight: 600;
+  color: #7F8293;
+}
+
+.fa-map-marker-alt { margin-right: 5px }
+
+.card-body {
+  padding: 30px 20px;
+  background-color: #f8f8f8;
+  text-align: center;
+}
+
+.description {
+  color: #7E838D;
+  margin: 25px 0 35px;
+}
+
+.btn {
+  display: block;
+  border: 0;
+  width: 220px;
+  margin: 10px auto;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition-property: background-color, color;
+  transition: 250ms ease;
+}
+
+.btn-primary {
+  background-color: #039BE6;
+  color: #fff;
+}
+.btn-primary:hover {
+  background-color: #0071a8;
+}
+
+.btn-outline-primary {
+  background-color: #039BE6;
+  color: #fff;
+  
+}
+.btn-outline-primary:hover {
+  background-color: #0071a8;
+  
+}
+
+.statut {
+  font-size: .8rem;
+  margin-top: 40px;
+  color: #7E838D;
+  font-weight: 600;
+}
+
+.statut i {
+  color: #8AC547;
+  margin-right: 5px;
+}
